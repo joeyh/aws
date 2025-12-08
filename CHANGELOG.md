@@ -5,6 +5,8 @@ NOTES: 0.25 brings technically breaking changes, which should not affect
 most users. I recommend using smart constructors and {} matching syntax
 whenever possible when interacting with aws types.
 
+-   0.25.2
+    - S3: Add RestoreObject command
 -   0.25.1
     - S3: Make getBucket support Google Object Storage, which does
       not include StorageClass in its response, by defaulting to Standard.

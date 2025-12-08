@@ -15,6 +15,7 @@ module Aws.S3.Commands
 , module Aws.S3.Commands.PutBucket
 , module Aws.S3.Commands.PutBucketVersioning
 , module Aws.S3.Commands.PutObject
+, module Aws.S3.Commands.RestoreObject
 , module Aws.S3.Commands.Multipart
 )
 where
@@ -34,4 +35,5 @@ import Aws.S3.Commands.HeadObject
 import Aws.S3.Commands.PutBucket
 import Aws.S3.Commands.PutBucketVersioning
 import Aws.S3.Commands.PutObject
+import Aws.S3.Commands.RestoreObject
 import Aws.S3.Commands.Multipart
